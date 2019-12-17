@@ -1,6 +1,233 @@
-body {
+*{
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
+/*Boot CSS*/
+img{
+    width: 100%;
+    max-width: 400px;
+}
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50{
+    padding: 0 2%;
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Estilização do site*/
+header{
+    padding: 20px 0;
+    background: rgb(19, 2, 46);
+}
+
+header .logo{
+    font-size: 23px;
+    color: white;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    top: 6px;
+    list-style-type: none;
+}
+
+nav.desktop li{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    display: inline-block
+
+}
+
+nav.desktop a{
+    color: white;
+}
+
+.banner-principal{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/smart-home.png');
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(51, 51, 51, 0.4)
+}
+
+section.banner-principal form{
+    width: 98%;
+    max-width: 600px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+section.banner-principal form h2{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+    width: 100%;
+    height: 66px;
+    margin-top: 10px;
+    background: white;
+    color: #333;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+section.banner-principal form input[type=submit]{
+    width: 100%;
+    height: 66px;
+    margin-top: 10px;
+    background: #00C59E;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    border: 0;
+}
+
+section.descricao-autor{
+    padding: 40px;
+}
+
+section.descricao-autor h2{
+    font-size: 28px;
+    font-weight: 300;
+    color: #444;
+}
+
+section.descricao-autor p{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+section.especialidades{
+    padding: 40px 0;
+    background: #E2E2E2;
+}
+
+section.especialidades h2.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #999;
+}
+
+.box-especialidade{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-especialidade h3{
+    color: #404580;
+    font-size: 40px;
+}
+
+.box-especialidade h4{
+    font-weight: 300;
+    color: #BABABA;
+    font-size: 25px;
+}
+
+.box-especialidade p{
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+
+    .botao-menu-mobile{
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+    nav.mobile ul{
+        top: 55px;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    nav.mobile li{
+        font-weight: 300;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 6px 0;
+    }
+    nav.mobile li a{
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .w33{
+        padding: 20px;
+        width: 100%;
+    }
+}
