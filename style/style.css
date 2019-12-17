@@ -221,6 +221,7 @@ section.especialidades h2.title{
         display: block;
         margin: 0 auto;
     }
+
     .w50{
         padding: 20px;
         width: 100%;
@@ -229,5 +230,10 @@ section.especialidades h2.title{
     .w33{
         padding: 20px;
         width: 100%;
+    }
+
+    .box-especialidade{
+        padding: 40px;
+        margin: 0;
     }
 }
