@@ -35,7 +35,7 @@
     ?>
     <header>
         <div class="center">
-            <div class="logo left"><a href="">石塚信義 @WebDeveloper</a>
+            <div class="logo left"><a href="">石塚信義 @Web-Developer</a>
               
             </div>  <!--logo-->
             <nav class="desktop right">
@@ -80,7 +80,7 @@
    
     <footer <?php if(isset($pagina404) && $pagina404 == true) echo 'class="fixed"'; ?>>
         <div class="center">
-            <p>Nobu-WebDeveloper  Todos os direitos reservados.</p>
+            <p>Todos os direitos reservados.</p>
         </div><!--center-->
     </footer>
 

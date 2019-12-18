@@ -9,6 +9,7 @@
 /*Boot CSS*/
 html,body{
     height: 100%;
+   
 }
 
 input{
@@ -306,7 +307,8 @@ section.error a{
 }
 
 .wraper-404{
-    transform:translate(-50%, -50%);
+    transform:translate(-50%,-50%);
+    -ms-transform:translateY(-50%,-50%);
     width: 100%;
     left: 50%;
     padding: 0 2%;
