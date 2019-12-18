@@ -6,6 +6,14 @@
 }
 
 /*Boot CSS*/
+html,body{
+    height: 100%;
+}
+
+input{
+    border: 0;
+}
+
 img{
     width: 100%;
     max-width: 400px;
@@ -22,7 +30,7 @@ img{
 }
 
 .w50{
-    padding: 0 2%;
+    padding: 0 10px;
     width: 50%;
 }
 
@@ -43,6 +51,7 @@ header{
     padding: 20px 0;
     background: rgb(2, 17, 46);
 }
+
 
 header .logo{
     font-size: 23px;
@@ -259,3 +268,43 @@ footer p{
     }
 }
 
+@media screen and (max-width: 700px){
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+
+	.botao-menu-mobile{
+		font-size: 24px;
+		cursor: pointer;
+		color: white;
+	}
+
+	nav.mobile ul{
+		top:55px;
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		display: none;
+		text-align: center;
+	}
+
+	nav.mobile li{
+		font-weight: 300;
+		width: 100%;
+		display: block;
+		background: white;
+		border-bottom:1px solid #ccc;
+		font-size: 17px;
+		padding:8px 0;
+	}
+	nav.mobile li a{
+		display: block;
+		color: #444;
+		text-decoration: none;
+	}
+}
