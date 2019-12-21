@@ -316,8 +316,51 @@ section.error a{
     text-align: center;
     position: absolute;
     top: 50%;
+    }
 
-}
+    #map{
+        width: 100%;
+        height: 400px;
+        background: url("../img/ContactUs.jpg");
+    }
+
+    .contato-container{
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .contato-container input[type=text]{
+        margin: 8px 0;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #ccc;
+        max-width: 800px;
+        padding-left: 8px;
+        font-size: 16px;
+        color: 444;
+    }
+
+    .contato-container textarea{
+        margin: 8px 0;
+        width: 100%;
+        height: 120px;
+        border: 1px solid #ccc;
+        padding-left: 8px;
+        font-size: 16px;
+        max-width: 800px;
+        resize: vertical;
+        color: #444;
+    }
+
+    .contato-container input[type=submit]{
+        background: #00C59E;
+        width: 140px;
+        height: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+
 @media screen and (max-width: 768px){
     img{
         float: none !important;

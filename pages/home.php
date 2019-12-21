@@ -13,12 +13,13 @@
         <div class="center">
             <div class="w50 left">
                 <h2>Nobuyoshi Ishizuka</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam voluptatum inventore, autem id
-                    asperiores laboriosam illo voluptates dolor nostrum animi ea modi officia commodi! Praesentium,
-                    eaque. Incidunt, provident maxime?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam voluptatum inventore, autem id
-                    asperiores laboriosam illo voluptates dolor nostrum animi ea modi officia commodi! Praesentium,
-                    eaque. Incidunt, provident maxime?</p>
+                <p>Olá, meu nome é Nobuyoshi Ishizuka, tenho 32 anos. Atualmente estou cursando o último ano de de  Análise e Desenvolvimento de Sistemas pela Unip.
+                    e me sinto preparado para encarar novos desafios no maravilhoso mundo da tecnologia desenvolvendo softwares de qualidade.
+                </p>
+                <p>Minhas especialidades incluem o desenvolvimento de websites com HTML5, CSS3, e JavaScript, na construção de layounts responsivos, bem como construir o básico de back-end
+                    para a integração do front-end com o banco de dados. 
+                    
+                </p>
             </div><!--w50-->
             
             
@@ -62,7 +63,7 @@
     
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
+            <div id="depoimentos" class="w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-sigle">
                     <p class="depoimento-descricao">
@@ -92,7 +93,7 @@
                 </div><!--depoimentos-sigle-->
             </div><!--w50-->
             
-            <div class="w50 left">
+            <div id="servicos" class="w50 left servicos container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                 <ul>

@@ -15,4 +15,9 @@ $(function(){
         }
      
     })
+
+    if($('target').lenght > 0){
+        //O elemento existe portanto precisamos dar o scroll em algum elemento.
+        var elemento ='#'+$('target').attr('target');
+    }
 })
